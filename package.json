@@ -1,0 +1,20 @@
+{
+  "name": "gramoday_assignment",
+  "version": "1.0.0",
+  "description": "it consists 2 express JS API web-service which captures user's reports and returns an aggregated report as in a response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayjangid-51/Gramoday_assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayjangid-51/Gramoday_assignment/issues"
+  },
+  "homepage": "https://github.com/ajayjangid-51/Gramoday_assignment#readme"
+}
