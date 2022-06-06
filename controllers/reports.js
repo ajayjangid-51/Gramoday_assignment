@@ -10,14 +10,7 @@ const getReport = async (req, res) => {
 
 		if (rpt.length > 0) {
 			let xx = req.body.reportDetails.price / req.body.reportDetails.convFctr;
-			console.log(`the xx is:= ${xx}`);
-			// xx = xx / 2;
-			console.log(`the xx is:= ${xx}`);
-
 			const pt = (rpt[0].price + xx) / 2;
-			console.log(`the rpt.price is:= ${rpt[0].price}`);
-			console.log(`the pt is:= ${pt}`);
-
 			const rptt = await reportsCollection.findByIdAndUpdate(rpt[0]._id, {
 				price: pt,
 			});
